@@ -1,0 +1,30 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'info230_sp17_fp_kotrt'
+
+// info230_sp17_fp_kotrt.activities
+
+[{"actID":"5","actName":"Cycling","actBlurb":"Cycle along some of the most beautiful trails close to home!","actImg":"img\/activities\/cycling.jpg"}, {"actID":"6","actName":"Boating","actBlurb":"We&#039;re near a lake, might as well use it!","actImg":"img\/activities\/boating.jpg"}, {"actID":"7","actName":"Caving","actBlurb":"Luray Caverns is beautiful. Check it out with your friends from COC!","actImg":"img\/activities\/lurayCaverns.jpg"}, {"actID":"8","actName":"Snowsports","actBlurb":"Hit the slopes with your favorite members from COC!","actImg":"img\/activities\/snowSports.jpg"}, {"actID":"9","actName":"Climbing","actBlurb":"Climbers rejoice! You have the passion, we have the gear!","actImg":"img\/activities\/rockIceClimbing.jpg"}, {"actID":"11","actName":"Backpacking and Hiking","actBlurb":"Explore the beautiful trails from the Finger Lakes Region and beyond! ","actImg":"img\/activities\/backpacking.jpg"}]
+
+// info230_sp17_fp_kotrt.eboard
+
+[{"positionID":"1","positionName":"Adventurer","posImg":"img\/coclogo.png","bio":"I AM IN COC","userID":"13"}, {"positionID":"2","positionName":"President","posImg":"img\/eboard\/GroupMe_1.jpg","bio":"Fred is the President","userID":"1"}, {"positionID":"3","positionName":"President","posImg":"img\/eboard\/GroupMe_1.jpg","bio":"Fred is the President","userID":"1"}, {"positionID":"4","positionName":"COC","posImg":"img\/eboard\/.","bio":"I am COC","userID":"10"}]
+
+// info230_sp17_fp_kotrt.gear
+
+[{"gearID":"1","gearType":"Placeholder","gearCondition":"0","gearLocale":"Placeholder","gearStatus":"0"}]
+
+// info230_sp17_fp_kotrt.triprecord
+
+[{"userID":"12","gearID":"1","tripID":"51","isLeader":"1"}, {"userID":"12","gearID":"1","tripID":"52","isLeader":"1"}, {"userID":"12","gearID":"1","tripID":"53","isLeader":"1"}, {"userID":"12","gearID":"1","tripID":"54","isLeader":"1"}]
+
+// info230_sp17_fp_kotrt.trips
+
+[{"tripID":"51","addedOn":"2017-05-11 21:01:08","tripDescrip":"Test Trip","startDate":"2017-05-12","endDate":"2017-05-14","location":"Cornell University","activity":"8","difficulty":"1"}, {"tripID":"52","addedOn":"2017-05-11 21:02:03","tripDescrip":"Test Trip","startDate":"2017-05-12","endDate":"2017-05-14","location":"Cornell University","activity":"8","difficulty":"1"}, {"tripID":"53","addedOn":"2017-05-11 21:02:29","tripDescrip":"Test Trip","startDate":"2017-05-12","endDate":"2017-05-14","location":"Cornell University","activity":"8","difficulty":"1"}, {"tripID":"54","addedOn":"2017-05-11 21:03:28","tripDescrip":"Test Trip","startDate":"2017-05-12","endDate":"2017-05-14","location":"Cornell University","activity":"8","difficulty":"1"}]
+
+// info230_sp17_fp_kotrt.users
+
+[{"userID":"1","name":"Frederick Kauber","paid":"1","dateCreated":"2000-01-01 00:00:00","medCert":"10","isActive":"1","isAdmin":"1","email":"fkauberads@gmail.com","hashedPass":"info2300"}, {"userID":"9","name":"Arthur Wang","paid":"0","dateCreated":"2017-04-29 00:00:00","medCert":"0","isActive":"1","isAdmin":"0","email":"aw592@cornell.edu","hashedPass":"$2y$10$532hCKr1nVaNsGzyOpcoNuw3xNG9j5PEMViS1ayCa567vY1tjsVzu"}, {"userID":"10","name":"Arthur Wang","paid":"0","dateCreated":"2017-04-29 00:00:00","medCert":"0","isActive":"1","isAdmin":"1","email":"aw11030@gmail.com","hashedPass":"$2y$10$rYnSnsCp19yoLfserDnNSuKaGYVrMeFkz9Ba9gN9zLR05lRfdLAl2"}, {"userID":"11","name":"Andrew Semmes","paid":"0","dateCreated":"2017-04-29 00:00:00","medCert":"0","isActive":"1","isAdmin":"0","email":"als452@cornell.edu","hashedPass":"$2y$10$mM.bBYrhR.I1YDf7PAxf\/uQNEH8UMx1XGB4JBM6dbLRM413Mqa2LW"}, {"userID":"12","name":"Master Admin","paid":"0","dateCreated":"2017-04-30 00:00:00","medCert":"0","isActive":"1","isAdmin":"1","email":"COC-EXEC-L@cornell.edu","hashedPass":"$2y$10$lFDk.YgrRcfypJTtS7EfceKzjwDddFm4Mau6rrNXI85QRdtoSgHLa"}, {"userID":"13","name":"Chris Huber","paid":"0","dateCreated":"2017-04-30 00:00:00","medCert":"0","isActive":"1","isAdmin":"0","email":"cmh333@cornell.edu","hashedPass":"$2y$10$u0xZ8PlVNsYb2URNjXTJ\/.ZvyIM03JPQjjpiMIGv1Ul0kPhuMW3H6"}]
