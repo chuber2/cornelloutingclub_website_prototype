@@ -1,0 +1,38 @@
+div.activityName {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.9;
+    filter: alpha(opacity(0.9));
+    width: 100%;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+div.activityName h1 {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 200%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content col {
+    text-align: center;
+}
+
+.col-md-5.col-sm-12.col-xs-12 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activityImage {
+    height: 100%;
+    width: 100%;
+}
+
+.imageWrapper a {
+    height: 100%;
+    width: 100%;
+}

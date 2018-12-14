@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100%;
+}
+
+.row {
+    padding: 0;
+}
+
+.content.col {
+    width: 100%;
+}
+.loginContent{
+    text-align:center;
+}
+.col*{
+    text-align:middle;
+}
+#advisory  {
+ padding-left:0; 
+ text-align:left;
+ display:inline-block;
+}
+
+#logo{
+    width:80%;
+    margin:0 auto;
+    margin-bottom:10%;
+    display:inline-block;
+}
+
+.header {
+    width: 100vw;
+    height: 88vh;
+ }
+
+.bannerImage {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.error{
+    color:red;
+    font-size:xx-large;
+}
+.message{
+    color:green;
+    font-size:xx-large;
+}
+/**********************************/
+/*Contact Us Styling Here*/
+.responsiveIframe{
+    height:1000px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+/*End of Contact Us Styling*/
+
+/**********************************/
+/*Eboard Page Styling*/
+
+/*.member{
+    margin-bottom: 20px;
+    text-align: center;
+    backgroung=d
+}*/
+
+.memberPosition{
+    font-size: 150%;
+}
+
+/**/
+.memberName{
+   font-size: 200%;
+}
+
+.eboardImg{
+    /*border-radius:50%;*/
+    max-width: 100%;
+    max-height: 100%;
+    width:24vw;
+    height:32vw;
+    margin:auto;
+    margin-right:2%;
+    display:inline-block;
+}
+/*.memberContainer{
+    margin:2.5% 0;
+    float:left;
+    margin-left:2%;
+    height:100%;
+    padding-right:2%;
+    display:inline-block;
+    border-right:solid lightgray 2px;
+}*/
+/*.memberBioContainer{
+    float:left;
+    text-align:left;
+    margin-left:2%;
+}*/
+
+/*End of Eboard Page Styling*/
+.center-table {
+  display: table;
+  height:100%;
+}
+.center-table p {
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+}
+.content{
+    /*z-index:-1;*/
+}
+html,body{
+    height:100%;
+    width:100% !important;
+}
+.upcomingTable th{
+    text-align:center;
+}
+.upcomingTable{
+    /*display:inline-block;*/
+    width:100% !important;
+    table-layout:fixed;
+}
+
+.cssbutton{
+  display:block;
+  font-size:x-large;
+  margin:2%;
+  text-decoration:none !important;
+}
+.cssbutton:hover{
+    font-weight:bold;
+}
+.loginContent input{
+    width:80%;
+    padding:1%;
+    margin:1%;
+    text-align:center;
+}
+
+/*profile page styling*/
+.profile_banner{
+    width: 70%;
+    background-color: #ffe5e5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border-radius: 15px 50px;
+    text-align: center;
+}
+.profile_details{
+    width: 70%;
+    background-color: #ffe5e5;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 50px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.profile_details h3{
+    text-align: center;
+    padding-left: none;
+}
+.profile_details p{
+    text-align:left;
+    display: inline-block;
+}
+/*end of profile page styling.*/
+
+h1{
+    margin-top:1em !important;
+    text-align:middle;
+}
+input{
+    text-align:center;
+}
+
+.editingForm {
+    float: left;
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    width: 90%;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+
+.editingForm th {
+    height: 2em;
+    text-align: left;
+    padding-left: 0.5em;
+    background-color: #d4af37;
+    color: white;
+}
+
+.editingForm tr {
+    height: 3em;
+}
+
+.editingForm td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.editingForm tr td:first-child {
+    padding-left: 0.5em;
+}
+
+.editingForm td .textInput {
+    padding-right: 0.5em;
+    margin: 0 0.4em 0 1.2em;
+    width: 90%;
+    text-align: left;
+}
+
+.editingForm td select {
+    margin-left: 0.6em;
+}
+
+.editingForm td .textInput {
+    margin-left: 0.6em;
+}
+
+.editingForm td textarea {
+    margin-left: 0.6em;
+    padding-right: 0.5em;
+    width: 90%;
+    height: 10em;
+}
+
+input.button {
+    width: 12em;
+    height: 2.75em;
+    text-align: center;
+    background-color: rgba(15,19,76, 1);
+    color: white;
+}
+
+input.red {
+    width: 12em;
+    height: 2.75em;
+    text-align: center;
+    background-color: rgba(255,0,0, 1);
+    color: white;
+}
+
+.clickable td a {
+  display: block;
+}
+
+.footer {
+    float: left;
+    width: 50%;
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer p {
+    padding-top: 0.5vh;
+}
+
+.iconWrapper {
+    padding-top: 1vh;
+}
+
+.footer i {
+    color: #000000;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .editingForm td {
+        font-size: 48%;
+    }
+    
+    .iconWrapper {
+        padding-top: 1vh;
+        background-color: white;
+        width: 25%;
+        height: 68%;
+        opacity: 0.7;
+        float: right;
+        border-radius: 100px / 50px;
+    }
+}
